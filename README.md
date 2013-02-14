@@ -4,31 +4,39 @@ The idea behind this repo is to provide a basic skeleton or reference of how a v
 It has the right structure for [Pathogen](https://github.com/tpope/vim-pathogen), so it should be as easy as cloning
 this repo in the `.vim/bundle/vim-python-quickstart` folder.
 
-## Invoking the plugin functions
+### Invoking the functions defined in the plugin
 
-To invoke the defined function called ´hello´ just type:
+As I assume that you are using `Pathogen` you won't need to do anything but call the imported function. 
+To call the ´hello´ function of the example just type:
 
 ```vim
 :call hello()
 ```
 
-## Making changes and running it again
+And you will obtain the following message at the bottom of your vim window:
 
-Edit `quickstart.vim` and `quickstart.py` as many times you want. Whenever you want to test the changes just type:
+```vim
+Hello World!
+```
+
+### Making changes and trying it again
+
+Edit `quickstart.vim` and `quickstart.py` as many times you want. Whenever you want to try the changes just type:
 
 ```vim
 :source path/to/quickstart.vim
 ```
 
-If you want to do that and call the function `hello`after that:
+In order to save some time and call the function `hello`after importing you can do:
 
 ```vim
 :source path/to/quickstart.vim | call hello()
 ```
 
-## Source
+### Source and Reference
 
-The structure was taken from the following project: [LycosaExplorer](https://bitbucket.org/mikehart/lycosaexplorer/)
+The structure was taken from the following project: [LycosaExplorer](https://bitbucket.org/mikehart/lycosaexplorer/). 
+I recommend that you check it out as an example of a real world python-based vim extension.
 
 Happy Hacking!
 
