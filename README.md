@@ -33,6 +33,16 @@ In order to save some time and call the function `hello`after importing you can 
 :source path/to/quickstart.vim | call hello()
 ```
 
+### Going beyond
+
+Vim docs are pretty complete, you can find more by doing:
+
+```vim
+:help python
+```
+
+Pretty easy, heh?
+
 ### Thanks
 
 The structure was taken from the following project: [LycosaExplorer](https://bitbucket.org/mikehart/lycosaexplorer/). 
