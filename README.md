@@ -33,7 +33,7 @@ In order to save some time and call the function `hello`after importing you can 
 :source path/to/quickstart.vim | call hello()
 ```
 
-### Source and Reference
+### Thanks
 
 The structure was taken from the following project: [LycosaExplorer](https://bitbucket.org/mikehart/lycosaexplorer/). 
 I recommend that you check it out as an example of a real world python-based vim extension.
