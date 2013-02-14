@@ -7,7 +7,7 @@ this repo in the `.vim/bundle/vim-python-quickstart` folder.
 ### Invoking the functions defined in the plugin
 
 As I assume that you are using `Pathogen` you won't need to do anything but call the imported function. 
-To call the ´hello´ function of the example just type:
+To call the `hello` function of the example just type:
 
 ```vim
 :call hello()
